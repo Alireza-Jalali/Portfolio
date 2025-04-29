@@ -1,0 +1,108 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans';
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 10%;
+}
+
+.navbar strong{
+    font-size: 22px;
+}
+
+.navbar .bars-navbar-portfolio input{
+    display: none;
+}
+
+.navbar .bars-navbar-portfolio .bars{
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+    display: block;
+    margin: 5px 0;
+    transition: transform .5s ease, opacity .25s ease;
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-top{
+    transform: translateY(7px) rotate(-45deg);
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-middle{
+    opacity: 0;
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-bottom{
+    transform: translateY(-7px) rotate(45deg);
+}
+
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header h2{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+}
+
+.header h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.header h4{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.header p{
+    margin-top: 30px;
+    line-height: 24px;
+    padding: 0 5%;
+}
+
+.header .contact{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4FC3F7;
+    border-radius: 40px;
+    margin-top: 30px;
+}
+
+.header .resume{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4FC3F7;
+    border-radius: 40px;
+    margin-top: 30px;
+}
