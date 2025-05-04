@@ -111,19 +111,19 @@ section.work{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 5%;
+    padding: 80px 5%;
 }
 
 section.work button.email{
     background-color: transparent;
     border: 2px solid #484e53;
     border-radius: 15px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    width: 150px;
+    width: 140px;
 }
 
 section.work button.email span{
@@ -131,7 +131,7 @@ section.work button.email span{
 }
 
 section.work p{
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .footer{
@@ -146,7 +146,7 @@ section.work p{
 .footer .social ul{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .footer .social ul li{
@@ -155,12 +155,13 @@ section.work p{
 
 .footer .social ul li a ion-icon{
     font-size: 28px;
+    padding: 5px;
 }
 
 .footer span{
     text-align: center;
     margin: 30px 0;
     color: #a9a9a9;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
 }
