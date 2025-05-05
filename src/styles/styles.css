@@ -95,6 +95,21 @@ a{
     border: 1px solid #4FC3F7;
     border-radius: 40px;
     margin-top: 30px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.header .contact:hover{
+    background-color: #4FC3F7;
+}
+
+.header .contact:hover a{
+    color: #000;
+}
+
+.header .contact:active{
+    background-color: #4FC3F7;
+    transform: scale(0.9);
+    color: #000;
 }
 
 .header .resume{
@@ -105,6 +120,21 @@ a{
     border: 1px solid #4FC3F7;
     border-radius: 40px;
     margin-top: 30px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.header .resume:hover{
+    background-color: #4FC3F7;
+}
+
+.header .resume:hover a{
+    color: #000;
+}
+
+.header .resume:active{
+    background-color: #4FC3F7;
+    transform: scale(0.9);
+    color: #000;
 }
 
 section.work{
@@ -124,10 +154,16 @@ section.work button.email{
     align-items: center;
     gap: 10px;
     width: 140px;
+    transition: transform 0.25s ease;
+}
+
+section.work button.email:active{
+    transform: scale(0.9);
 }
 
 section.work button.email span{
     color: #fff;
+    text-wrap: nowrap;
 }
 
 section.work p{
