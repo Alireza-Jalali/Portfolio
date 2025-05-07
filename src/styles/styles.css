@@ -22,7 +22,7 @@ li{
     list-style: none;
 }
 
-img{
+.img-responsive{
     width: 100%;
     display: block;
 }
@@ -156,7 +156,7 @@ section.projects{
 section.projects h3{
     font-size: 24px;
     font-weight: 700;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 section.projects h4{
@@ -170,7 +170,7 @@ section.projects h4{
 
 section.projects .card{
     margin: 0 5%;
-    border: 1px solid #d6dded;
+    border: 1px solid #a9a9a9;
     border-radius: 10px;
 }
 
@@ -208,7 +208,7 @@ section.projects .card .card-footer ul li{
     border: 1px solid #a9a9a9;
     border-radius: 20px;
     padding: 10px;
-    margin: 0 5px;
+    margin-right: 5px;
 }
 
 section.form{
