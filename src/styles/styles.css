@@ -190,13 +190,13 @@ section.projects .card .card-body h5{
 }
 
 section.projects .card .card-footer{
-    padding: 20px;
+    padding: 0px 20px;
 }
 
 section.projects .card .card-footer p{
     color: #a9a9a9;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin: 10px 0 20px 0;
 }
 
 section.projects .card .card-footer ul{
@@ -209,6 +209,16 @@ section.projects .card .card-footer ul li{
     border-radius: 20px;
     padding: 10px;
     margin-right: 5px;
+    font-size: 14px;
+}
+
+section.projects .card .card-footer a button{
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0 20px 0;
+    padding: 15px 0;
+    border: none;
+    border-radius: 10px;
 }
 
 section.form{
