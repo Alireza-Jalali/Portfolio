@@ -18,6 +18,15 @@ a{
     color: #fff;
 }
 
+li{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -137,6 +146,71 @@ a{
     color: #000;
 }
 
+section.projects{
+    margin: 70px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.projects h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+section.projects h4{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+    font-size: 20px;
+    margin: 10px 0 50px 0;
+    font-weight: 400;
+}
+
+section.projects .card{
+    margin: 0 5%;
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+}
+
+section.projects .card .card-header img{
+    border-radius: 10px 10px 0 0;
+}
+
+section.projects .card .card-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section.projects .card .card-body h5{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+section.projects .card .card-footer{
+    padding: 20px;
+}
+
+section.projects .card .card-footer p{
+    color: #a9a9a9;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+section.projects .card .card-footer ul{
+    margin-bottom: 10px;
+}
+
+section.projects .card .card-footer ul li{
+    display: inline;
+    border: 1px solid #a9a9a9;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 5px;
+}
+
 section.form{
     text-align: center;
 }
@@ -174,11 +248,12 @@ section.form form input{
     padding: 15px;
     border: 1px solid #d6dded;
     outline: none;
+    background-color: transparent;
+    color: #fff;
 }
 
 section.form form input::placeholder{
     font-size: 14px;
-    color: #8987a1;
 }
 
 section.form form textarea{
@@ -187,6 +262,14 @@ section.form form textarea{
     padding: 15px;
     border: 1px solid #d6dded;
     height: 150px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    resize: none;
+}
+
+section.form form textarea::placeholder{
+    font-size: 14px;
 }
 
 section.form form button{
