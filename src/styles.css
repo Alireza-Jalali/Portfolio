@@ -21,6 +21,7 @@ body{
 
 a{
     text-decoration: none;
+    color: var(--white);
 }
 
 li{
@@ -68,4 +69,92 @@ li{
 
 .navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-bottom{
     transform: translateY(-7px) rotate(45deg);
+}
+
+.header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.header figure img{
+    width: 60%;
+    max-width: 300px;
+    border-radius: 100%;
+}
+
+.header h2{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+}
+
+.header h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.header h4{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.header p{
+    margin-top: 30px;
+    line-height: 24px;
+    padding: 0 5%;
+}
+
+.header .contact{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4FC3F7;
+    border-radius: 40px;
+    margin-top: 30px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.header .contact:hover{
+    background-color: #4FC3F7;
+}
+
+.header .contact:hover a{
+    color: #000;
+}
+
+.header .contact:active{
+    background-color: #4FC3F7;
+    transform: scale(0.9);
+    color: #000;
+}
+
+.header .resume{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #4FC3F7;
+    border-radius: 40px;
+    margin-top: 30px;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.header .resume:hover{
+    background-color: #4FC3F7;
+}
+
+.header .resume:hover a{
+    color: #000;
+}
+
+.header .resume:active{
+    background-color: #4FC3F7;
+    transform: scale(0.9);
+    color: #000;
 }
