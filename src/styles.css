@@ -7,6 +7,64 @@
     box-sizing: border-box;
 }
 
+:root{
+    --black: #1a1a1a;
+    --white: #fff;
+}
+
 body{
     font-family: "Open Sans";
+    background-color: var(--black);
+    color: var(--white);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.responsive-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 10%;
+}
+
+.navbar strong{
+    font-size: 22px;
+}
+
+.navbar .bars-navbar-portfolio input{
+    display: none;
+}
+
+.navbar .bars-navbar-portfolio .bars{
+    width: 24px;
+    height: 2px;
+    background-color: var(--white);
+    display: block;
+    margin: 5px 0;
+    transition: transform .5s ease, opacity .25s ease;
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-top{
+    transform: translateY(7px) rotate(-45deg);
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-middle{
+    opacity: 0;
+}
+
+.navbar .bars-navbar-portfolio input#hamburger:checked ~ label .bar-bottom{
+    transform: translateY(-7px) rotate(45deg);
 }
