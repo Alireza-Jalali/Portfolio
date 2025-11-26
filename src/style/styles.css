@@ -235,3 +235,37 @@ section.form form button{
 section.form form button:active{
     transform: scale(0.9);
 }
+
+section.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 5%;
+}
+
+section.work button.email{
+    background-color: transparent;
+    border: 2px solid #484e53;
+    border-radius: 15px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    width: 140px;
+    transition: transform 0.25s ease;
+    cursor: pointer;
+}
+
+section.work button.email:active{
+    transform: scale(0.9);
+}
+
+section.work button.email span{
+    color: #fff;
+    text-wrap: nowrap;
+}
+
+section.work p{
+    font-size: 24px;
+}
