@@ -158,3 +158,80 @@ li{
     transform: scale(0.9);
     color: #000;
 }
+
+section.form{
+    text-align: center;
+}
+
+section.form h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+section.form h4{
+    background: linear-gradient(to right, #4FC3F7, #fff);
+    color: transparent;
+    background-clip: text;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+section.form form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 5%;
+}
+
+section.form form label{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+section.form form input{
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #d6dded;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+section.form form input::placeholder{
+    font-size: 14px;
+}
+
+section.form form textarea{
+    margin: 1rem 0;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #d6dded;
+    height: 150px;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+    resize: none;
+}
+
+section.form form textarea::placeholder{
+    font-size: 14px;
+}
+
+section.form form button{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #d6dded;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform 0.25s ease;
+}
+
+section.form form button:active{
+    transform: scale(0.9);
+}
