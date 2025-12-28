@@ -17,6 +17,7 @@ body{
     font-family: "Google Sans", sans-serif;
     background-color: var(--black);
     color: var(--white);
+    overflow-x: hidden;
 }
 
 a{
@@ -333,7 +334,9 @@ section.work p{
 .footer .social ul{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
+    padding-left: 0;
 }
 
 .footer .social ul li{
@@ -351,4 +354,11 @@ section.work p{
     color: #a9a9a9;
     font-size: 14px;
     font-weight: 300;
+}
+
+.footer span::before{
+    content: '\00A9';
+    font-size: 30px;
+    vertical-align: -10px;
+    margin-right: 3px;
 }
